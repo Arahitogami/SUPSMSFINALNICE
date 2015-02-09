@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TEAM"
+            android:id="@+id/team"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="280dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="204372"
+            android:id="@+id/xavier"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="279dp"
+            android:layout_marginTop="72dp"
+            android:layout_below="@+id/team"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="CERIA XAVIER"
+            android:id="@+id/xavier_name"
+            android:layout_alignTop="@+id/xavier"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="208921"
+            android:id="@+id/amat_id"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="279dp"
+            android:layout_marginTop="43dp"
+            android:layout_below="@+id/xavier"
+            android:layout_alignEnd="@+id/xavier" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="205031"
+            android:id="@+id/Manu_id"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/amat_id"
+            android:layout_alignStart="@+id/amat_id"
+            android:layout_marginTop="52dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="AMAT ALEXANDRA"
+            android:id="@+id/alex_name"
+            android:layout_alignTop="@+id/amat_id"
+            android:layout_alignStart="@+id/xavier_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="DI CLEMENTE EMMANUEL"
+            android:id="@+id/manu_name"
+            android:layout_alignTop="@+id/Manu_id"
+            android:layout_alignStart="@+id/alex_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="
+SUPSMS is a small application created by students at SUPINFO International University.
+
+This allows to realize a backup of your contacts and messages on a remote server using a provided API "
+            android:id="@+id/prez"
+            android:layout_marginBottom="72dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/manu_name"
+            android:layout_alignEnd="@+id/Manu_id" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ceria.amat.diclemente.MenuActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:id="@+id/buttonBUSMS"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/buttonLogout"
+        android:layout_alignStart="@+id/buttonBUContacts"
+        android:layout_alignEnd="@+id/buttonBUContacts" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Backup contacts"
+        android:id="@+id/buttonBUContacts"
+        android:layout_below="@+id/buttonBUSMS"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/buttonLogout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/buttonAbout"
+        android:layout_marginTop="123dp"
+        android:layout_below="@+id/buttonBUContacts"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/buttonBUSMS"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/smsicon"
+        android:src="@drawable/smsicon"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_above="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/conatcticon"
+        android:src="@drawable/contacticon"
+        android:layout_toStartOf="@+id/buttonAbout"
+        android:layout_alignBottom="@+id/buttonBUContacts"
+        android:layout_alignTop="@+id/buttonBUContacts" />
+
+</RelativeLayout>
